@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import { MagnifyingGlassIcon } from '@heroicons/react/24/solid'
+import { MagnifyingGlassIcon,PauseCircleIcon,HomeIcon, PlusCircleIcon} from '@heroicons/react/24/solid'
 
 export default function Header() {
   return (
     
-    <div className=" flex items-center justify-between max-w-7xl mt-8">
+    <div className=" flex items-center justify-between max-w-7xl mt-8 mx-4 xl:mx-auto">
   {/* left */}
     <div className=" cursor-pointer h-28 w-28 relative hidden lg:inline-grid">
 <Image
@@ -23,16 +23,22 @@ className=' object-contain'
     </div>
     {/* middle */}
     <div className="relative ">
-      <div className="absolute top-2 left-2">
-      <MagnifyingGlassIcon className=" h-6    text-green-600" />
+      <div className="absolute top--2 left--4 bg-slate-950">
+      <MagnifyingGlassIcon className=" h-8   text-green-600" />
       </div>
-      <input type="text" placeholder='search' className=' border-green-600 bg-orange-100 text-sm pl-10 focus:ring-black focus:border-black  rounded-md' />
+      <input type="text" placeholder='search ' className=' border-green-600 bg-orange-100 text-sm  pl-32 focus:ring-black focus:border-black  text-right h-8 ' />
     </div>
 
 
 
     {/* right */}
-    <h1>Right side</h1>
+    <div className="flex space-x-4 items-center">
+      
+      <HomeIcon className=" h-8 hidden md:inline-flex  text-green-600 cursor-pointer  hover:scale-125 transition-transform  duration-1000  ease-out" />
+      <PlusCircleIcon className=" h-8   text-green-600 cursor-pointer  hover:scale-125 transition-transform  duration-1000  ease-out" />
+      <img src="https://d3nn873nee648n.cloudfront.net/900x600/15481/12-SM627046.jpg" alt="user-name" className='h-10 w-10 rounded-full cursor-pointer'/>
+    </div>
+   
 
 </div>
 
