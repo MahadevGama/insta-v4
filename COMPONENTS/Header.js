@@ -13,6 +13,7 @@ export default function Header() {
 <Image
 src="https://logos-download.com/wp-content/uploads/2016/03/Instagram_Logo_2016.png"
 layout='fill'
+alt="loading"
 className=' object-contain'
 />
     </div>
@@ -20,6 +21,7 @@ className=' object-contain'
 <Image
 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuSM1hkRzCWyBAnpffQMNFNlO84nLH8gpp4g&usqp=CAU"
 layout='fill'
+alt="loading"
 className=' object-contain'
 />
     </div>
