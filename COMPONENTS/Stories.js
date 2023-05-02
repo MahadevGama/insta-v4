@@ -16,7 +16,7 @@ export default function Stories() {
         console.log(StoryUsers);
     },[])
   return (
-    <div>
+    <div className='flex space-x-4 p-6 bg-white mt-10 border-lime-500 border-2 overflow-x-scroll rounded-sm scrollbar-none'>
       {StoryUsers.map(user=>(
         <Story key={user.id} username={user.username} img={user.img}/>
       ))}

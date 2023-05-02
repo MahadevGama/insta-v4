@@ -43,7 +43,7 @@ className=' object-contain'
       
       <HomeIcon className=" h-8 hidden md:inline-flex  text-green-600 cursor-pointer  hover:scale-125 transition-transform  duration-1000  ease-out" />
       <PlusCircleIcon className=" h-8   text-green-600 cursor-pointer  hover:scale-125 transition-transform  duration-1000  ease-out" />
-      <img src="https://d3nn873nee648n.cloudfront.net/900x600/15481/12-SM627046.jpg" alt="user-name" className='h-10 w-10 rounded-full cursor-pointer'/>
+      <img src="https://d3nn873nee648n.cloudfront.net/900x600/15481/12-SM627046.jpg" alt="user-name" className='h-20 w-20  rounded-full cursor-pointer hover:scale-150 border-green-500 border-4 transition-transform duration-1000'/>
     </div>
    
 
