@@ -1,11 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
-import { MagnifyingGlassIcon,PauseCircleIcon,HomeIcon, PlusCircleIcon} from '@heroicons/react/24/solid'
+import { MagnifyingGlassIcon,HomeIcon, PlusCircleIcon} from '@heroicons/react/24/solid'
 
 export default function Header() {
   return (
+    <div className=" shadow-sm  h-24 border-b sticky top-0 bg-slate-50 z-30 ">
+
     
-    <div className=" flex items-center justify-between max-w-7xl mt-8 mx-4 xl:mx-auto">
+    <div className=" flex items-center justify-between max-w-7xl  mx-4 xl:mx-auto">
   {/* left */}
     <div className=" cursor-pointer h-28 w-28 relative hidden lg:inline-grid">
 <Image
@@ -21,12 +23,15 @@ layout='fill'
 className=' object-contain'
 />
     </div>
+    <div className="">
+      <h1 className=' text-4xl  font-extrabold italic'>Mahadev </h1>
+    </div>
     {/* middle */}
     <div className="relative ">
       <div className="absolute top--2 left--4 bg-slate-950">
-      <MagnifyingGlassIcon className=" h-8   text-green-600" />
+      <MagnifyingGlassIcon className=" h-10   text-zinc-50" />
       </div>
-      <input type="text" placeholder='search ' className=' border-green-600 bg-orange-100 text-sm  pl-32 focus:ring-black focus:border-black  text-right h-8 ' />
+      <input type="text" placeholder='search ' className=' border-green-600 bg-orange-100 text-sm   pl-10 focus:ring-black focus:border-black  text-center h-10 ' />
     </div>
 
 
@@ -45,6 +50,7 @@ className=' object-contain'
 
 
 
+</div>
 
 
 
