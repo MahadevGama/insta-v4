@@ -16,7 +16,7 @@ export default function Posts() {
             username:"mahadevgama1",
            userImg:"https://d3nn873nee648n.cloudfront.net/900x600/15481/12-SM627046.jpg",
            img:"https://d3nn873nee648n.cloudfront.net/900x600/14142/120-SM517115.jpg",
-           caption:"Nice friens"
+           caption:"Nice friends"
 
         }
     ]
@@ -29,7 +29,7 @@ export default function Posts() {
         username={post.username}
         userImg={post.userImg}
         img={post.img}
-        caption={post.caption}
+        caption={post. caption}
         />
       ))}
     </div>
