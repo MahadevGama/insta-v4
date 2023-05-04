@@ -24,6 +24,7 @@ export default function Post({img,username,userImg, caption,id}) {
     {/* post comments */}
     <p className='p-5 truncate'><span className='font-bold mr-2'>{username}</span>{ caption}</p>
     {/* post input box */}
+    <hr className='h-4' />
     <form className="flex item-center p-4">
       <FaceSmileIcon className='h-10'/>
       <input className=' border-none flex-1 focus:ring-0' type="text" placeholder='Enter your comment...'/>
