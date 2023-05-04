@@ -2,6 +2,7 @@ import React from 'react'
 import Stories from './Stories'
 import Posts from './Posts'
 import Miniprofile from './Miniprofile'
+import Suggetion from './Suggetion'
 
 export default function Feed() {
   return (
@@ -18,6 +19,7 @@ export default function Feed() {
          {/* mini profile */}
           <Miniprofile/>
          {/* suggetion  */}
+         <Suggetion/>
          </div>
 
       </section>
